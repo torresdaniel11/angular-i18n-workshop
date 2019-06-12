@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'i18n-workshop';
+  messages: string[]
+  message: string;
+
+  constructor() {
+    this.messages = [];
+    this.message = "";
+  }
+
+  submitForm() {
+    if (!!this.message)
+      this.messages.push(this.message);
+    this.message = "";
+  }
 }
+

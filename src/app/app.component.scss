@@ -1,0 +1,30 @@
+header:not(.article-header){
+  height: 56px;
+  background-color: #313131;
+  .icon-home{
+    color:white;
+    font-size: 30px;
+  }
+}
+
+.article-header{
+  text-align: center;
+  padding: 40px;
+}
+
+section{
+  padding: 20px;
+}
+
+main{
+  min-height: calc(100vh - 106px);
+}
+
+footer{
+  text-align:center;
+  position: fixed;
+  bottom:0;
+  height: 50px;
+  width: 100%;
+  background: #f2f2f2;
+}
