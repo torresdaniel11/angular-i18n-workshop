@@ -18,8 +18,8 @@
 <main>
   <article class="container-fluid">
     <header class="article-header">
-      <h1>Internationalization </h1>
-      <p>Let's see a short example </p>
+      <h1 i18n="Header title|Main header for the app@@appHeaderTitle">Internationalization </h1>
+      <p i18n="Header subtitle|Subtitle for the main header@@appHeaderSubtitle">Let's see a short example </p>
     </header>
 
     <section class="container">
@@ -28,13 +28,19 @@
           <form class="form-inline" (ngSubmit)="submitForm()" #sampleForm="ngForm">
             <div class="form-group">
               <input class="form-control" type="text" [(ngModel)]="message" name="message"
-                placeholder="What's on your mind?">
-              <button class="btn btn-dark" type="submit">Submit</button>
+                placeholder="What's on your mind?"
+                i18n-placeholder="Input placeholder form on your mind|Placeholder for the input on your mind@@InputPlaceholderMind">
+              <button class="btn btn-dark" type="submit">
+                <ng-container i18n="Submit form|Button that trigger the action of a form@@SubmitButton">
+                  Submit
+                </ng-container>
+              </button>
             </div>
           </form>
         </div>
         <div class="col-12 col-sm-6">
-          <h6>Thing i had on my mind</h6>
+          <h6 i18n="Header of section list of things|Header of the list of things i had on my mind@@HeaderListThings">
+            Things i had on my mind</h6>
           <ul class="list-group list-group-flush">
             <li class="list-group-item" *ngFor="let i of messages">
               {{i}}
