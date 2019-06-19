@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="appHeaderTitle" datatype="html">
+        <source>Internationalization </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">Main header for the app</note>
+        <note priority="1" from="meaning">Header title</note>
+      </trans-unit>
+      <trans-unit id="appHeaderSubtitle" datatype="html">
+        <source>Let&apos;s see a short example </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">Subtitle for the main header</note>
+        <note priority="1" from="meaning">Header subtitle</note>
+      </trans-unit>
+      <trans-unit id="InputPlaceholderMind" datatype="html">
+        <source>What&apos;s on your mind?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Placeholder for the input on your mind</note>
+        <note priority="1" from="meaning">Input placeholder form on your mind</note>
+      </trans-unit>
+      <trans-unit id="SubmitButton" datatype="html">
+        <source> Submit </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Button that trigger the action of a form</note>
+        <note priority="1" from="meaning">Submit form</note>
+      </trans-unit>
+      <trans-unit id="HeaderListThings" datatype="html">
+        <source> Things i had on my mind</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+        <note priority="1" from="description">Header of the list of things i had on my mind</note>
+        <note priority="1" from="meaning">Header of section list of things</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
