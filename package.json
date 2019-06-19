@@ -4,10 +4,18 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:es": "ng serve --configuration=es",
+    "start:ja": "ng serve --configuration=ja",
+    "start:fr": "ng serve --configuration=fr",
     "build": "ng build",
+    "build:es": "ng build --configuration=es",
+    "build:ja": "ng build --configuration=ja",
+    "build:fr": "ng build --configuration=fr",
+    "build:all": "ng build --prod && ng build --configuration=es && ng build --configuration=ja && ng build --configuration=fr",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "int:extract": "ng xi18n --output-path locale"
   },
   "private": true,
   "dependencies": {
