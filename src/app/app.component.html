@@ -7,9 +7,10 @@
         Lang
       </button>
       <div class="dropdown-menu" aria-labelledby="langDropdown">
-        <a class="dropdown-item" href="#">ES</a>
-        <a class="dropdown-item" href="#">FR</a>
-        <a class="dropdown-item" href="#">JA</a>
+        <a class="dropdown-item" *ngIf="!locationRef.includes('es.i18n.fun')" href="https://es.i18n.fun">ES</a>
+        <a class="dropdown-item" *ngIf="!locationRef.includes('fr.i18n.fun')" href="https://fr.i18n.fun">FR</a>
+        <a class="dropdown-item" *ngIf="!locationRef.includes('ja.i18n.fun')" href="https://ja.i18n.fun">JA</a>
+        <a class="dropdown-item" *ngIf="!locationRef.includes('https://i18n.fun/')" href="https://i18n.fun">EN</a>
       </div>
     </div>
   </nav>

@@ -8,10 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   messages: string[]
   message: string;
-
+  locationRef: string;
   constructor() {
     this.messages = [];
     this.message = "";
+    this.locationRef = location.href;
   }
 
   submitForm() {
