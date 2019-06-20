@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "i18n-workshop"
+  },
+  "targets": {
+    "i18n-workshop": {
+      "hosting": {
+        "en": [
+          "i18n-workshop"
+        ],
+        "es": [
+          "es-i18n"
+        ],
+        "fr": [
+          "fr-i18n"
+        ],
+        "ja": [
+          "ja-i18n"
+        ]
+      }
+    }
+  }
+}
